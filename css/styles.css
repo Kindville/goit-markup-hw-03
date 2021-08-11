@@ -1,0 +1,32 @@
+body {
+    background-color: #FFFFFF;
+    color: #757575
+}
+.logo {
+    color: #000;
+}
+.logo-web {
+    color:#2196F3;
+}
+.list {
+    list-style: none;
+}
+/* site-nav */
+.site-nav, link {
+    color: #2196F3;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3
+}
+/* Hero */
+.hero, .hero-title {
+    color: #000
+}
+/* Sections */
+.section, .section-title {
+    color: #000
+}
+
+/* black links MAIN 212121  blue links  2196F3
+ white FFFFFF   text 757575 Background1 -FFFFFF Background2 E5E5E5 Background3 F5F4FA footer 2F303A*/
