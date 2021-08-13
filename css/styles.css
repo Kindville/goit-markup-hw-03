@@ -27,6 +27,7 @@ body {
     color: var(--secondary-text-color);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .logo-web {
     color:var(--accent-color);
 }
@@ -38,15 +39,21 @@ body {
     color: var(--title-text-color);
     }
 
-.hero .link:hover,
-.hero .link:focus,
-.auto-nav .link:hover,
-.auto-nav .link:focus  {
-    background-color: #188CE8;
-}
-.auto-nav-item  {
+.auto-nav-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
+.auto-nav .link:hover,
+.auto-nav .link:focus,
+.header-nav-list .link:hover,
+.header-nav-list .link:focus {
+    color: var(--accent-color);
+}
+
+
 
 /* ---hero---*/
 
@@ -62,22 +69,20 @@ body {
     text-transform: uppercase;
     color: var(--third-text-color);
 }
-.hero-button {
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px; 
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+.hero-button {  
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     color: var(--third-text-color);
     background-color: var(--accent-color);
-    cursor: pointer;
 }
-.hero-button .link:hover,
-.hero-button .link:focus{
-    color: #188CE8;
+.hero .link:hover,
+.hero .link:focus{
+    background-color: #188CE8;
 }
 
 /* ---features---*/
@@ -128,6 +133,12 @@ body {
 .footer {
     background-color: #2F303A    ;
 }
+.footer-link {
+    color: var(--third-text-color);
+}
+.list-contacts{
+    font-style: normal
+}
 .address,
 .contacts{
     font-weight: normal;
@@ -145,8 +156,7 @@ body {
 /* Portfolio */
 
 .portfolio-button{
-
-
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -161,4 +171,17 @@ body {
 .portfolio-list .link:focus {
     color: var(--third-text-color);
     background-color: var(--accent-color);
+}
+.portfolio-item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
