@@ -41,6 +41,10 @@ ul {
     outline: 1px solid teal; 
     
 }
+.header {
+    border: 1px solid #ECECEC;
+
+}
 .header-nav {
     display: flex;
     align-items: center;
@@ -319,8 +323,13 @@ ul {
     flex-wrap: wrap;
 }
 .portfolio-img .gallery{
-    margin-right: 30px;
+    margin-right: 21px;
     margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 1px solid #EEEEEE;
+    background: #FFFFFF;
+
+
 }
 .portfolio-item {
     margin-left: 24px;
